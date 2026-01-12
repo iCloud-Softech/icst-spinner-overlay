@@ -28,7 +28,7 @@ dependencies:
 ### Basic
 ```dart
 IcstSpinnerOverlay(
-  isActive: true,
+  show: true,
   config: IcstSpinnerConfig(
     spinner: IcstSpinners.cog05,
   ),
@@ -40,7 +40,7 @@ IcstSpinnerOverlay(
 ```dart
 YourWidget()
   .withIcstSpinnerOverlay(
-    isActive: true,
+    show: true,
     config: IcstSpinnerConfig(
       spinner: IcstSpinners.loader3,
     ),
@@ -50,7 +50,7 @@ YourWidget()
 ## Configuration
 | Parameter | Type | Default | Description |
 |---|---|---|---|
-| isActive | bool | Required | Whether the overlay is active or not |
+| show | bool | Required | Whether the overlay is active or not |
 | config | IcstSpinnerConfig | Required | [See General Configuration documentation](#general-configuration) |
 | child | Widget | Required | Wdiget that will contain the overlay |
 | onOverlayTap | VoidCallback? | null | Callback for when the overlay is tapped on |
