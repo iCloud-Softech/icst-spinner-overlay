@@ -1,6 +1,6 @@
 # Icst Spinner Overlay for Flutter
 
-A customizable Flutter widget that displays spinner as an overlay when busy.
+A customizable Flutter widget that displays spinner as an overlay when busy and you want to block the screen..
 
 ## Features
 
