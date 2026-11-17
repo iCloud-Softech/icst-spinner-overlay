@@ -1,11 +1,11 @@
 name: icst_spinner_overlay
 description: "ICST Spinner Overlay Flutter Package. A customizable Flutter widget that displays spinner as an overlay when busy and you want to block the screen."
-version: 1.0.2
+version: 2.0.0
 homepage: https://github.com/iCloud-Softech/icst-spinner-overlay
 
 environment:
-  sdk: ^3.10.3
-  flutter: ">=1.17.0"
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
 
 dependencies:
   flutter:
