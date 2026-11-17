@@ -1,9 +1,11 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import 'package:icst_spinner_overlay/icst_spinner_overlay.dart';
 
-typedef OnSpinnerChangeCallback =
-    Function(IcstSpinners newSpinner, bool isFullScreen);
+typedef OnSpinnerChangeCallback = Function(
+  IcstSpinners newSpinner,
+  bool isFullScreen,
+);
 
 void main() {
   runApp(const MyApp());
